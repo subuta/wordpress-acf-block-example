@@ -158,15 +158,15 @@ function wordpress_acf_block_example_acf_init()
 {
   if (function_exists('acf_register_block')) {
     // ギャラリー要素
-    acf_register_block(array(
-      'name' => 'wordpress-acf-block-example/gallery',
-      'title' => __('(独自)ギャラリー'),
-      'description' => __('独自のギャラリーを挿入します'),
-      'render_template' => get_template_directory() . '/template-parts/blocks/gallery.php',
-      'category' => 'common',
-      // SEE: https://developer.wordpress.org/resource/dashicons/#no
-      'icon' => 'images-alt2'
-    ));
+//    acf_register_block(array(
+//      'name' => 'wordpress-acf-block-example/gallery',
+//      'title' => __('(独自)ギャラリー'),
+//      'description' => __('独自のギャラリーを挿入します'),
+//      'render_template' => get_template_directory() . '/template-parts/blocks/gallery.php',
+//      'category' => 'common',
+//      // SEE: https://developer.wordpress.org/resource/dashicons/#no
+//      'icon' => 'images-alt2'
+//    ));
   }
 }
 

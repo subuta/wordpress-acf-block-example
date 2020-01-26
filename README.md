@@ -10,4 +10,5 @@ SEE: https://underscores.me/
 1. この手順を上から実行する。 https://github.com/urre/wordpress-nginx-docker-compose
 2. Wordpressの管理画面へログインする。
 3. `Appearance` からthemeを `wordpress-acf-block-example` にする。
-4. 完了
+4. 事前にダウンロードした、ACF PROのプラグインを設定(アップロード & 有効化)する。
+5. 完了
